@@ -18,6 +18,13 @@ def string_info(string):
     lower_case = string.lower()             # нижний регистр
     return (length, upper_case, lower_case) # возвращаем кортеж
 
+"""
+
+def string_info(string):                      # оптимизировать функцию string_info(string)
+    count_calls()                             # посчитали количество вызовов
+    return (len(string), string.lower(), string.upper())
+
+"""
 
 def is_contains (string, list_to_search):
     count_calls()   # счетчик
